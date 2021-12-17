@@ -1,3 +1,4 @@
+Q) Create a calculator function 
 
 def calculator(a,b):
     print("1. Addition \
@@ -17,4 +18,12 @@ def calculator(a,b):
 a=int(input("Enter first number"))
 b=int(input("Enter second number"))
 calculator(a,b)
+
+Q) Create any function with 3-4 parameters
+
+def funct(a,b,c):
+    sum=a+b+c
+    ans=a*b//c
+    print(sum, ans)
+funct(2,3,4)
 
